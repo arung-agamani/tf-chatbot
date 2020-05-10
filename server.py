@@ -7,7 +7,7 @@ bot = ChatBot_Server()
 
 server = Flask(__name__)
 
-@server.rout('/', methods=['GET'])
+@server.route('/', methods=['GET'])
 def home():
     return "<h1>AAAAAAAAAAAAAAAAA</h1>"
 
