@@ -7,6 +7,10 @@ bot = ChatBot_Server()
 
 server = Flask(__name__)
 
+@server.rout('/', methods=['GET'])
+def home():
+    return "<h1>AAAAAAAAAAAAAAAAA</h1>"
+
 @server.route('/chatbot', methods=['POST'])
 def handleChat():
     print("Chat request inbound...")
