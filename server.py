@@ -26,5 +26,5 @@ def handleChat():
 
 # response_message = bot.chatbot_response("Can you help me?")
 # print(response_message)
-server.run(port=2000, threaded=False)
+server.run(host='0.0.0.0', port=2000, threaded=False)
 
