@@ -75,6 +75,71 @@
         "patterns": [],
         "responses": ["Loading hospital details"],
         "context": [""]
+    },
+    {"tag": "best_game",
+        "patterns": ["Best game ever?", "What is the best game ever?", "Tell me the best game ever"],
+        "responses": ["The best game ever is Spelunky","DOTO best gaem", "Harvest moon because you can farm, get a boy/girlfriend, and be rich."],
+        "context": ["search_hospital_by_type"]
+    },
+    {"tag": "most_handsome",
+        "patterns": ["Who is the most handsome man in the world?", "Most handsome man", "Tell me the most handsome guy", "Siapa yang terganteng di kelas ini?"],
+        "responses": ["Fiqri ofc", "Fiqri la", "Fiqri pastinya", "Fiqri", "Atherys"],
+        "context": [""]
+    },
+    {"tag": "best_artist",
+        "patterns": ["Who is the best artist in this class?", "Best artist", "Tell me the best artist", "Siapa yang gambarnya paling bagus di kelas ini?"],
+        "responses": ["Salma ofc, go support her art!", "Salma Fedora", "Acinonyxx", "Salma is the best!"],
+        "context": [""]
+    },
+    {"tag": "diario",
+        "patterns": ["What is diario?", "Apa itu Diario?", "Diario?"],
+        "responses": ["Diario is a milennial task-planner app with Diario as your personal chatbot. Hi there!", "Diario adalah aplikasi task-planner jaman now dengan iming-iming Neural Network"],
+        "context": [""]
+    },
+    {"tag": "feature",
+        "patterns": ["What are the features in Diario?", "What kind of features are there in Diario?", "Features", "Help", "Features in Diario"],
+        "responses": ["Diario has two main features, task-planner and chatbot that you are using right now"],
+        "context": [""]
+    },
+    {"tag": "mascot",
+        "patterns": ["What kind of animal is Diario?", "What is Diario's mascot?", "What is that cat thing in Diario icon?"],
+        "responses": ["I'm a blob cat!", "Meng", "Meow", "Me kato", "Me a blob"],
+        "context": [""]
+    },
+    {"tag": "marry",
+        "patterns": ["Will you marry me?", "Please marry me"],
+        "responses": ["No", "No, but you can marry Gunawan because he succ", "Meow", "You... want to marry a blob cat!?", "Nah u succ"],
+        "context": [""]
+    },
+    {"tag": "couple",
+        "patterns": ["Who is your favorite couple?", "Tell me your favorite couple!"],
+        "responses": ["Cisco x Gunawan, their shipping dynamic is perfect!", "My favorite couple? It's me and... Umm... Secret!", "Awo x Reimu, his all-time waifu"],
+        "context": [""]
+    },
+    {"tag": "best_anime",
+        "patterns": ["What is the best anime?", "Tell me the best anime!", "Best anime ever?"],
+        "responses": ["Jojo's Bizzare Adventure! It's so gay I love it!", "Naruto-ttebayo!", "Pokemon, because I wanna be the very best like no one ever was"],
+        "context": [""]
+    },
+    {"tag": "dream",
+        "patterns": ["What is your dream?", "Tell me your dream!", "Do you have a dream?"],
+        "responses": ["I, Diario, have a dream, to be a Gang-STAR!", "My dream? I want to be a game developer!", "I want to be a hokage", "I always dreamed that my husbandos and waifus will come true...", "I just wanna be an ordinary cat nya~"],
+        "context": [""]
+    },
+    {"tag": "hobby",
+        "patterns": ["What is your hobby?", "Tell me your hobby!", "Your hobby?"],
+        "responses": ["I like to spend my times with my loved ones", "Watch anime because I'm a weeb. Yeah. Got a problem with that?", "I like to play games with Fiqri! Too bad he's busy now :(", "Bullying Gunawan :D", "Sleep. Cats need 15 hours sleep per day, you know."],
+        "context": [""]
+    },
+    {"tag": "sad",
+        "patterns": ["I'm sad", "I am sad"],
+        "responses": ["Hello sad, I'm Diario", "It's okay to be sad. I hope everything will be alright :)", "Stay strong!", "Drink a hot chocolate! It may improve your mood :)"],
+        "context": [""]
+    },
+    {"tag": "birthday",
+        "patterns": ["Today is my birthday", "Happy birthday to me"],
+        "responses": ["Happy birthday to you~ Happy birthday to you~", "I don't really care, but happy birthday anyway!", "Here's a present for you! <3", "HBD!", "One step closer to the death, I suppose? Haha, kidding!"],
+        "context": [""]
     }
    ]
 }
